@@ -45,57 +45,70 @@
             </div>
         </nav>
 
-      <h4>vous pouvez nous contacter à l'aide de ce formulaire</h4>
+      	<h4>
+      		<center>
+      		vous pouvez nous contacter à l'aide de ce formulaire
+      		</center>
+      	</h4>
       <form>
 
 <!--Prénom et Nom-->
-          <div class="col-md-6 mb-3">
-            <label>Prénom</label>
-            <input type="text" class="form-control" placeholder="Benabard" value="" required>
-            <div class="invalid-feedback">
-              Entrez un Prénom valide.
-            </div>
-          </div>
-          <div class="col-md-6 mb-3">
-            <label>Nom</label>
-            <input type="text" class="form-control" placeholder="JeanLouis" value="" required>
-            <div class="invalid-feedback">
-              Entrez un Nom de famille valide.
-            </div>
-          </div>
-        </div>
-        <form>
+			<center>
+          		<div class="col-md-6 mb-3">
+            		<label>Prénom</label>
+            			<input type="text" class="form-control" placeholder="Benabard" value="" required>
+            	<div class="invalid-feedback">
+              	Entrez un Prénom valide.
+            	</div>
+          		</div>
+      		</center>
+          	<center>
+          		<div class="col-md-6 mb-3">
+            		<label>Nom</label>
+            			<input type="text" class="form-control" placeholder="JeanLouis" value="" required>
+            	<div class="invalid-feedback">
+              	Entrez un Nom de famille valide.
+            	</div>
+          		</div>
+  			</center>
 <!--Adresse mail -->
-            <div class="col-md-6 mb-3">
-            <label>Adresse Mail</label>
-            <input type="text" class="form-control" value="" required>
-            <div class="invalid-feedback">
-              Entrez une adresse mail  valide.
-            </div>
-          </div>
+			<center>
+            	<div class="col-md-6 mb-3">
+            		<label>Adresse Mail</label>
+            			<input type="text" class="form-control" value="" required>
+            	<div class="invalid-feedback">
+              	Entrez une adresse mail  valide.
+            	</div>
+          		</div>
+          	</center>	
 <!--Sujet -->
-            <div class="col-md-6 mb-3">
-            <label>Objet</label>
-    <select name="Objets" class="form-control">
-            <option value="">--Choisit une option--</option>
-            <option value="">Demande de Renseignements</option>
-            <option value="">Presse / Question générale</option>
-            <option value="">Rejoindre et adhérer à l'organisation </option>
-            <option value="">Sponsoring et Parteneriat</option>
-            <option value="spider">Equipe support web</option>
-    </select>
-          </div>
+			<center>
+            	<div class="col-md-6 mb-3">
+            		<label>Objet</label>
+    					<select name="Objets" class="form-control">
+				            <option value="">--Choisir une option--</option>
+				            <option value="">Demande de Renseignements</option>
+				            <option value="">Presse / Question générale</option>
+				            <option value="">Rejoindre et adhérer à l'organisation </option>
+				            <option value="">Sponsoring et Parteneriat</option>
+				            <option value="spider">Equipe support web</option>
+    					</select>
+          		</div>
+          	</center>	
 <!--Envoyer un message -->
-            <div class="col-md-9 mb-15">
-            <label>Corps message</label>
-            <textarea type="text" class="form-control">
-            </textarea>
-          </div>
-      </br>
+			<center>
+            	<div class="col-md-9 mb-15">
+            		<label>Corps message</label>
+            			<textarea type="text" class="form-control"></textarea>
+          		</div>
+          	</center>
+      		</br>
 <!-- Validation -->
-        <div class="col-6">
-         <button type="button" class="btn btn-danger">S'inscrire</button>
-        </div>
+			<center>
+        		<div class="col-6">
+         			<button type="button" class="btn btn-danger">Envoyer</button>
+        		</div>
+        	</center>
     </form>
-    </body>
+</body>
 </html>
