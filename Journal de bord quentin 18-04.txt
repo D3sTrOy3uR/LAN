@@ -1,0 +1,3 @@
+On a effectué, toujours en binôme avec Alexandre, le MCT.
+On a ensuite importé tout notre script SQL, dans le logiciel laragon pour créer la base de donnée.
+Tout a bien fonctionné.
